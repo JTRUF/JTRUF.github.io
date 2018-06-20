@@ -1598,3 +1598,14 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+		@media(max-width: 415px) {
+			.skills {
+				display: grid; 
+				grid-template-columns: 100px 100px 100px!important;
+				grid-column-gap: 10px;
+				align-items: center!important;
+				}
+			.skillimg {
+				margin-left: 10px!important;
+			}
+		}
